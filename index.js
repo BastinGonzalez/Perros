@@ -5,7 +5,7 @@ const cors = require('cors');
 const {mongoose} = require('./database');
 
 const app = express();
-//opcion 2 para mandar a llamar el puerto
+//API PARA MASCOTAS
 //const port = process.env.PORT || 3000;
 app.set('port', process.env.PORT || 3000);
 
