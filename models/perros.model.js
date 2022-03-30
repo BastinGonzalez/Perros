@@ -1,6 +1,6 @@
 const mongoose = require('mongoose');
 const {Schema} = mongoose;
-//comentario
+//api
 const PerrosSchema = new Schema({
   nombre: {type: String, require: true},
   raza:{type: String, required: true},
